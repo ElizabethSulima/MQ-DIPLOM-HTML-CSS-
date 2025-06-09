@@ -116,7 +116,7 @@
   margin-left: auto;
   margin-right: auto;
 }
- 
+
 .trends__title:hover {
   text-decoration: underline;
 }
@@ -134,17 +134,22 @@
 }
 
 .trend__card {
+  background-image: url("/img/trend1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  /* position: relative; */
+  background-size: cover;
+  background-color: #000;
   margin-bottom: 17px;
-  position: relative;
   z-index: 1000;
 }
 
-.trend__card-image {
+/* .trend__card-image {
   height: 43vh;
   min-width: 360px;
   position: relative;
 
-}
+} */
 
 .trend__content {
   border: #b59f5b 3px solid;
