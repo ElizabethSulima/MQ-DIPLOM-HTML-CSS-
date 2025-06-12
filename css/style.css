@@ -40,10 +40,11 @@
   position: relative;
   background-size: cover;
   background-color: #000;
+  margin-bottom: 42px;
 }
 
 .header::before,
-.trend__card-image::before {
+.trend__card::before {
   content: "";
   background-color: #000000;
   position: absolute;
@@ -103,10 +104,6 @@
   padding-bottom: 210px;
 }
 
-.trends-list {
-  margin-top: 42px;
-}
-
 .trends__title {
   font-size: 16px;
   font-weight: 700;
@@ -115,10 +112,7 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-}
-
-.trends__title:hover {
-  text-decoration: underline;
+  margin-bottom: 112px;
 }
 
 .trends__title::after {
@@ -134,47 +128,54 @@
 }
 
 .trend__card {
-  background-image: url("/img/trend1.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  /* position: relative; */
   background-size: cover;
   background-color: #000;
-  margin-bottom: 17px;
+  position: relative;
   z-index: 1000;
 }
 
-/* .trend__card-image {
-  height: 43vh;
-  min-width: 360px;
-  position: relative;
+.trend-image1 {
+  background-image: url("/img/trend1.jpg");
+}
 
-} */
+.trend-image2 {
+  background-image: url("/img/trend2.jpg");
+}
+
+.trend-image3 {
+  background-image: url("/img/trend3.jpg");
+}
+
+.trend-image4 {
+  background-image: url("/img/trend4.jpg");
+}
 
 .trend__content {
   border: #b59f5b 3px solid;
   width: 330px;
-  height: 24vh;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -150px;
+  margin-bottom: 100px;
+  padding-top: 34px;
+  padding-left: 20px;
+  padding-bottom: 25px;
+  padding-right: 80px;
 }
 
 .nav-menu {
-  margin-bottom: 10px;
+  margin-bottom: 13px;
 }
 
 .trend_menu {
-  list-style: none;
-  margin-left: 20px;
-  margin-top: 35px;
   text-transform: uppercase;
   line-height: 0.8;
   font-size: 13px;
   font-weight: 700;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 18px;
 }
 
 .link__item {
@@ -184,12 +185,9 @@
 .trend__title {
   font-size: 16px;
   font-weight: 700;
-  line-height: 1.3;
+  line-height: 1.2;
   text-transform: uppercase;
   color: #fff;
-  padding-left: 20px;
-  display: block;
-  width: 270px;
 }
 
 @media (max-width: 767px) {
