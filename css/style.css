@@ -74,23 +74,23 @@
 .wrapper-center {
   margin-left: auto;
   margin-right: auto;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 3%;
+  padding-left: 3%;
 }
 
 .header__nav {
   display: flex;
-  padding-top: 26px;
+  padding-top: 25px;
   align-items: flex-end;
   flex-direction: column;
 }
 
 .menu {
-  margin-bottom: 165px;
+  margin-bottom: 163px;
 }
 
 .menu-burger {
-  width: 30px;
+  width: 32px;
 }
 
 .logo-link {
@@ -106,8 +106,9 @@
   color: white;
   font-size: 26px;
   font-weight: 700;
+  font-family: OpenSans;
   line-height: 1.4;
-  width: 291px;
+  width: 300px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -134,7 +135,7 @@
   width: 66px;
   height: 3px;
   display: block;
-  margin-bottom: 25px;
+  margin-bottom: 24px;
 }
 
 .trend__card {
@@ -145,9 +146,9 @@
   position: relative;
   display: flex;
   align-items: flex-end;
-  min-height: 230px;
-  padding-bottom: 17px;
-  margin-bottom: 4px;
+  min-height: 232px;
+  padding-bottom: 16px;
+  margin-bottom: 2px;
 }
 
 .trend-image1 {
@@ -178,7 +179,7 @@
 }
 
 .nav-menu {
-  margin-bottom: 13px;
+  margin-bottom: 15px;
 }
 
 .trend_menu {
@@ -204,7 +205,7 @@
 }
 
 .main__content {
-  margin-top: 44px;
+  margin-top: 42px;
   margin-bottom: 320px;
 }
 
@@ -478,7 +479,7 @@
   line-height: 1.2;
 }
 
-.product-link{
+.product-link {
   color: #b59f5b;
   text-decoration: underline;
 }
@@ -514,15 +515,13 @@
 
 .shop-button {
   background-color: #b59f5b;
-  color: white; 
+  color: white;
   border: none;
   padding: 15px 30px;
-  cursor: pointer; 
-  font-weight: 700; 
+  cursor: pointer;
+  font-weight: 700;
   text-transform: uppercase;
-
 }
-
 
 /*раздел*/
 
@@ -542,7 +541,6 @@
   flex-wrap: wrap;
   gap: 27px;
 }
-
 
 .social-logo-link {
   width: 20px;
