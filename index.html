@@ -8,6 +8,49 @@
   </head>
   <body>
     <img src="NOEMI_mq_mobile.jpg" alt="" class="pixel-perfect" />
+    <div class="b-container">
+      <div class="popup">
+        <img src="./svg/form-x.svg" class="popup__close" alt="" />
+        <h2 class="popup__title">ваш фидбэк</h2>
+
+        <form action="" class="popup__form-choice">
+          <span class="popup__text">Как часто вы заходите на сайт?</span>
+          <input
+            type="text"
+            class="text__choice"
+            placeholder="Почти каждый день"
+          />
+        </form>
+
+        <div class="popup__radio">
+          <span class="popup__text">Вы подписаны на e-mail рассылку?</span>
+          <div class="radio-choice">
+            <label for="yes"
+              ><input type="radio" id="yes" class="radio-yes" checked />
+              <span>Да</span></label
+            >
+
+            <label for="no"
+              ><input type="radio" id="no" class="radio-no" />
+              <span>Нет</span></label
+            >
+          </div>
+        </div>
+
+        <form action="" class="popup__form-text">
+          <span class="popup__text"
+            >Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span
+          >
+          <input
+            type="text"
+            class="reference"
+            placeholder="Может, больше рецептов?"
+          />
+          <button class="popup__button">отправить</button>
+        </form>
+      </div>
+    </div>
+
     <header class="header">
       <div class="container wrapper-center">
         <div class="header__nav">
@@ -117,7 +160,9 @@
               </li>
             </ul>
           </nav>
-          <span class="trend__title">сейчас в тренде: сколько витамина с в лимонах?</span>
+          <span class="trend__title"
+            >сейчас в тренде: сколько витамина с в лимонах?</span
+          >
         </div>
       </div>
     </section>
@@ -152,7 +197,7 @@
             </p>
           </div>
         </article>
-        <!-- <article class="article__item">
+        <article class="article__item">
           <img src="img/last-post2.jpg" alt="" class="article__image" />
           <div class="article__content">
             <header class="article__header">
@@ -179,8 +224,8 @@
               занятий йогой из того, что можно найти в шкафу.
             </p>
           </div>
-        </article> -->
-        <!-- <article class="article__item">
+        </article>
+        <article class="article__item">
           <img src="img/last-post3.jpg" alt="" class="article__image" />
           <div class="article__content">
             <header class="article__header">
@@ -207,8 +252,8 @@
               Мы составили список лучших летних фестивалей по всему миру.
             </p>
           </div>
-        </article> -->
-        <!-- <article class="article__item">
+        </article>
+        <article class="article__item">
           <img src="img/last-post4.jpg" alt="" class="article__image" />
           <div class="article__content">
             <header class="article__header">
@@ -235,8 +280,8 @@
               вскроем физику, химию и микробиологию еды.
             </p>
           </div>
-        </article> -->
-        <!-- <article class="article__item">
+        </article>
+        <article class="article__item">
           <img src="img/last-post5.jpg" alt="" class="article__image" />
           <div class="article__content">
             <header class="article__header">
@@ -267,10 +312,10 @@
               везти подушку в химчистку.
             </p>
           </div>
-        </article> -->
+        </article>
       </section>
 
-      <!-- <aside class="aside-container">
+      <aside class="aside-container">
         <h2 class="aside__header">Новые посты</h2>
         <section class="last-posts">
           <div class="last-post">
@@ -388,9 +433,9 @@
             </li>
           </ul>
         </section>
-      </aside> -->
+      </aside>
 
-      <!-- <section class="products-list">
+      <section class="products-list">
         <h2 class="products__title">наши изделия</h2>
         <div class="product__item">
           <img src="img/shop-item-mobile1.jpg" alt="" class="product__image" />
@@ -419,7 +464,9 @@
               <h3 class="product-title">кукла «зайчик»</h3>
               <span class="product-text"
                 >Интерьерная рукодельная кукла «Зайчик», созданию которой
-                посвящена <a href="#0" class="product-link">весенняя серия постов</a> в блоге и несколько подкастов
+                посвящена
+                <a href="#0" class="product-link">весенняя серия постов</a> в
+                блоге и несколько подкастов
               </span>
             </header>
             <div class="product-info">
@@ -436,7 +483,9 @@
               <h3 class="product-title">шестиугольная рамка</h3>
               <span class="product-text"
                 >Необычная рамка для украшения дома из видео
-                <a href="#0" class="product-link">«Как сделать рамку из подручных средств за 30 минут»</a>
+                <a href="#0" class="product-link"
+                  >«Как сделать рамку из подручных средств за 30 минут»</a
+                >
               </span>
             </header>
             <div class="product-info">
@@ -448,12 +497,12 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
     </main>
 
-    <!-- <footer class="footer wrapper-center">
+    <footer class="footer wrapper-center">
       <address class="address">
-        <ul class="footer__list-social-logo">
+        <ul class="footer__list-social-logo logo-color">
           <li class="social-logo">
             <a href="#0" class="dribbble-logo social-logo-link"
               ><span class="visually-hidden">dribbble</span></a
@@ -471,7 +520,8 @@
           </li>
         </ul>
       </address>
-      <span class="copyright">Copytighy © 2009-2019 City Blog LLC</span>
-    </footer> -->
+      <div class="copyright">Copytighy © 2009-2019 City Blog LLC.</div>
+    </footer>
+    <script src="popup_close.js"></script>
   </body>
 </html>
