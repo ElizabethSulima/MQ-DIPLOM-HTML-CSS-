@@ -7,9 +7,9 @@
     <title>Document</title>
   </head>
   <body>
-    <img src="NOEMI_mq_tablet.jpg" alt="" class="pixel-perfect" />
+    <img src="NOEMI_mq_desktop.jpg" alt="" class="pixel-perfect" />
 
-    <div class="b-container">
+    <!-- <div class="b-container">
       <div class="popup">
         <img src="./svg/form-x.svg" class="popup__close" alt="" />
         <h2 class="popup__title">ваш фидбэк</h2>
@@ -54,7 +54,7 @@
           <button class="popup__button">отправить</button>
         </form>
       </div>
-    </div>
+    </div> -->
 
     <header class="header">
       <div class="container wrapper-center">
@@ -94,6 +94,26 @@
                 ></path>
               </g>
             </svg>
+            <ul class="header__menu">
+              <a href="#0" class="header__link-menu"
+                ><li class="header__nav-menu">главная</li></a
+              >
+              <a href="#0" class="header__link-menu"
+                ><li class="header__nav-menu">посты</li></a
+              >
+              <a href="#0" class="header__link-menu"
+                ><li class="header__nav-menu">статьи</li></a
+              >
+              <a href="#0" class="header__link-menu"
+                ><li class="header__nav-menu">теги</li></a
+              >
+              <a href="#0" class="header__link-menu"
+                ><li class="header__nav-menu">темы</li></a
+              >
+              <a href="#0" class="header__link-menu"
+                ><li class="header__nav-menu">контакты</li></a
+              >
+            </ul>
           </nav>
           <a href="#0" class="logo-link">
             <img src="svg/noemi-logo.svg" alt="" class="logo" />
@@ -105,7 +125,7 @@
 
     <section class="trends-list">
       <h2 class="trends__title">сейчас в тренде</h2>
-      <div class="trends-list-tablet">
+      <div class="trends-list-block">
         <div class="trend__card trend-image1">
           <div class="trend__content container">
             <nav class="nav-menu">
@@ -180,6 +200,7 @@
         <section class="articles-list">
           <article class="article__item">
             <img src="img/last-post1.jpg" alt="" class="article__image" />
+
             <div class="article__content">
               <header class="article__header">
                 <nav class="nav-menu">
@@ -451,11 +472,21 @@
         <h2 class="products__title">наши изделия</h2>
         <div class="products-block">
           <div class="product__item">
-            <img
-              src="img/shop-item-mobile1.jpg"
-              alt=""
-              class="product__image"
-            />
+            <picture class="product__picture">
+              <source
+                media="(min-width: 1280px)"
+                srcset="img/shop-item-desk1.jpg"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="img/shop-item-tablet1.jpg"
+              />
+              <img
+                src="img/shop-item-mobile1.jpg"
+                alt=""
+                class="product__image"
+              />
+            </picture>
             <div class="product__content">
               <header class="product-header">
                 <h3 class="product-title">подушки на диван</h3>
@@ -474,11 +505,21 @@
             </div>
           </div>
           <div class="product__item">
-            <img
-              src="img/shop-item-mobile2.jpg"
-              alt=""
-              class="product__image"
-            />
+            <picture class="product__picture">
+              <source
+                media="(min-width: 1280px)"
+                srcset="img/shop-item-desk2.jpg"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="img/shop-item-tablet2.jpg"
+              />
+              <img
+                src="img/shop-item-mobile2.jpg"
+                alt=""
+                class="product__image"
+              />
+            </picture>
             <div class="product__content">
               <header class="product-header">
                 <h3 class="product-title">кукла «зайчик»</h3>
@@ -496,11 +537,21 @@
             </div>
           </div>
           <div class="product__item">
-            <img
-              src="img/shop-item-mobile3.jpg"
-              alt=""
-              class="product__image"
-            />
+            <picture class="product__picture">
+              <source
+                media="(min-width: 1280px)"
+                srcset="img/shop-item-desk3.jpg"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="img/shop-item-tablet3.jpg"
+              />
+              <img
+                src="img/shop-item-mobile3.jpg"
+                alt=""
+                class="product__image"
+              />
+            </picture>
             <div class="product__content">
               <header class="product-header">
                 <h3 class="product-title">шестиугольная рамка</h3>
